@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "122111981096",
+    "firebase_url": "https://meetby-d42fa.firebaseio.com",
+    "project_id": "meetby-d42fa",
+    "storage_bucket": "meetby-d42fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122111981096:android:517923e2ae92891b81671d",
+        "android_client_info": {
+          "package_name": "com.me.by"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122111981096-pthtqjeachj0s0k1dkpcilaa841jd903.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.me.by",
+            "certificate_hash": "e174f108f63e2cf9950dd2ead68c2995bd80edc3"
+          }
+        },
+        {
+          "client_id": "122111981096-4teio5sec4giea3jj5di5s5etj4uiv2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4scSa81yFyz55MBdqJ7xQyHXrvyMHmys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122111981096-4teio5sec4giea3jj5di5s5etj4uiv2e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "122111981096-fvr5g6j5l7rdlndqa2imiqgbu2rtj16e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meet.by"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122111981096:android:e05f66d4bc66489181671d",
+        "android_client_info": {
+          "package_name": "com.meet.by"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122111981096-hm7s5dgqj662oq3lk4okgavsnfvgj0ni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meet.by",
+            "certificate_hash": "e174f108f63e2cf9950dd2ead68c2995bd80edc3"
+          }
+        },
+        {
+          "client_id": "122111981096-4teio5sec4giea3jj5di5s5etj4uiv2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4scSa81yFyz55MBdqJ7xQyHXrvyMHmys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122111981096-4teio5sec4giea3jj5di5s5etj4uiv2e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "122111981096-fvr5g6j5l7rdlndqa2imiqgbu2rtj16e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meet.by"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
