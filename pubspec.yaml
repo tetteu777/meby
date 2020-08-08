@@ -115,6 +115,7 @@ flutter:
   - assets/images/salvar_on.png
   - assets/images/salvar_off.png
   - assets/images/mebyconta.png
+  - assets/images/logo_azul.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
