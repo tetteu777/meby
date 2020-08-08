@@ -116,7 +116,7 @@ class _UploaderState extends State<Uploader> {
           return Container(
             margin: EdgeInsets.only(left: 40.w, right: 40.w, top: 40.h),
             child: RaisedButton(
-              color: Colors.white,
+              color: Color(0xff058BC6),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(18.0),
                 side: BorderSide(color: Color(0xff058BC6)),
@@ -124,7 +124,7 @@ class _UploaderState extends State<Uploader> {
               child: Text(
                 'Confirmar esta foto',
                 style: TextStyle(
-                    color: Color(0xff058BC6),
+                    color: Colors.white,
                     fontSize: 18,
                     fontWeight: FontWeight.bold),
               ),

@@ -123,7 +123,7 @@ class TelaCadastroFoto extends StatelessWidget {
                       ),
                       Container(
                         child: Text(
-                          'Envie a sua melhor foto',
+                          _.imagem == null ? 'Envie a sua melhor foto' : '',
                           style: TextStyle(
                               fontSize: 32.sp, fontWeight: FontWeight.bold),
                         ),

@@ -44,6 +44,7 @@ class PopUpDeletar extends StatelessWidget {
                         height: 30.h,
                       ),
                       Container(
+                        margin: EdgeInsets.symmetric(horizontal: 15.w),
                         child: Text(
                           'Tem certeza que deseja\nexcluir ${outroUsuario.nome} de sua agenda?',
                           textAlign: TextAlign.center,

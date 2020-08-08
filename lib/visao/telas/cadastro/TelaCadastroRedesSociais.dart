@@ -214,10 +214,16 @@ class TelaCadastroRedesSociais extends StatelessWidget {
                         width: 328.w,
                         height: 56.h,
                         child: RaisedButton(
-                            color: Color(0xff058BC6),
+                            color: _.whatsappTextController.text.isNotEmpty
+                                ? Color(0xff058BC6)
+                                : Color(0xffD9D9D9),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(18.0),
-                              side: BorderSide(color: Color(0xff058BC6)),
+                              side: BorderSide(
+                                  color:
+                                      _.whatsappTextController.text.isNotEmpty
+                                          ? Color(0xff058BC6)
+                                          : Color(0xffD9D9D9)),
                             ),
                             child: Text(
                               'Concluir',
@@ -225,7 +231,7 @@ class TelaCadastroRedesSociais extends StatelessWidget {
                                   color: Colors.white, fontSize: 18.sp),
                             ),
                             onPressed: () {
-                              if (Controle.to.whatsappTextController.text.isNotEmpty) {
+                              if (_.whatsappTextController.text.isNotEmpty) {
                                 Get.off(TelaQuerFicarVisivel());
                               } else {
                                 Get.defaultDialog(
