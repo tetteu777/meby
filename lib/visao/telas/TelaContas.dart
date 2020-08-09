@@ -1,3 +1,4 @@
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:meby/controle/controle.dart';
 import 'package:meby/modelo/Usuario.dart';
 import 'package:meby/visao/widgets/Logo.dart';
@@ -317,7 +318,7 @@ class TelaContas extends StatelessWidget {
                     Container(
                         width: 109.77.w,
                         height: 31.77.h,
-                        child: Image.asset('assets/images/mebyconta.png')),
+                        child: SvgPicture.asset('assets/images/logo_conta_cinza.svg', color: Color(0xff989898),)),
                     SizedBox(height: 50.h),
 
                     Divider(

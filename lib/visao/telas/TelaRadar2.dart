@@ -475,7 +475,7 @@ class TelaRadar2 extends StatelessWidget {
             height: 18.2.h * 1.8,
             child: FittedBox(
                 child: Image.asset(
-              'assets/images/salvar_on.png',
+              'assets/images/salvar_off.png',
             )),
           ),
           onTap: () {
@@ -489,7 +489,7 @@ class TelaRadar2 extends StatelessWidget {
             height: 18.2.h * 1.8,
             child: FittedBox(
                 child: Image.asset(
-              'assets/images/salvar_off.png',
+              'assets/images/salvar_on.png',
             )),
           ),
           onTap: () {

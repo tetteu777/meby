@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:meby/controle/controle.dart';
 import 'package:meby/visao/telas/TelaMeuPerfil2.dart';
 import 'package:meby/visao/telas/cadastro/TelaCadastroFoto.dart';
@@ -98,15 +99,24 @@ class TelaEditarUsuario extends StatelessWidget {
                               }
                               return null;
                             },
+                            inputFormatters: [
+                              LengthLimitingTextInputFormatter(30)
+                            ],
                             decoration: InputDecoration(labelText: 'Profissão'),
                             controller: profissaoControle,
                             maxLengthEnforced: true,
-                            maxLength: 30,
+                            //maxLength: 30,
+                          ),
+                          SizedBox(
+                            height: 0.h,
                           ),
                           TextFormField(
                             keyboardType: TextInputType.multiline,
                             maxLines: null,
-                            maxLength: 150,
+                            inputFormatters: [
+                              LengthLimitingTextInputFormatter(150)
+                            ],
+                            //maxLength: 150,
                             validator: (input) {
                               if (input.isEmpty) {
                                 return 'Por favor, digite sua bio';

@@ -1,3 +1,4 @@
+import 'package:flutter_svg/svg.dart';
 import 'package:meby/controle/controle.dart';
 import 'package:meby/modelo/Usuario.dart';
 import 'package:meby/util/CalculadoraDeIdade.dart';
@@ -232,8 +233,8 @@ class TelaMeuPerfil2 extends StatelessWidget {
                           Container(
                             width: 40.w,
                             height: 40.h,
-                            child: ImageIcon(AssetImage(
-                                'assets/images/meu_perfil_cinza.png')),
+                            child: SvgPicture.asset(
+                                'assets/images/icon_meu_perfil_cinza.svg')
                           ),
                           Container(
                             height: 5.h,
@@ -261,8 +262,8 @@ class TelaMeuPerfil2 extends StatelessWidget {
                           Container(
                             width: 40.w,
                             height: 40.h,
-                            child: ImageIcon(AssetImage(
-                                'assets/images/meu_perfil_azul.png')),
+                            child: SvgPicture.asset(
+                                'assets/images/icon meu perfil azul.svg',  color: Color(0xff058BC6)),
                           ),
                           Container(
                             height: 5.h,
@@ -496,11 +497,10 @@ class TelaMeuPerfil2 extends StatelessWidget {
               children: [
                 GestureDetector(
                   child: Container(
+                    color: Colors.white,
                     width: 63.44.h,
                     height: 63.44.h,
-                    child: Image(
-                      image: AssetImage('assets/images/icone_pesquisa.png'),
-                    ),
+                    child: SvgPicture.asset('assets/images/icone_Pesquisa.svg'),
                   ),
                   onTap: () {
                     Get.off(TelaRadar2());
@@ -516,10 +516,10 @@ class TelaMeuPerfil2 extends StatelessWidget {
                       color: Color(0xff058BC6),
                       borderRadius: BorderRadius.all(Radius.circular(60.w))),
                   child: IconButton(
-                    icon: ImageIcon(
-                      AssetImage('assets/images/compartilhar.png'),
-                      color: Colors.white,
-                    ),
+                    icon: Container(
+                      width: 30.71.w,
+                      height: 36.33.h,
+                      child: SvgPicture.asset('assets/images/compartilhar.svg', color: Colors.white)),
                     onPressed: () {
                       Get.dialog(
                           PopUpCompartilharMeuPerfil(_.usuarioById(_.uid), _));
