@@ -234,7 +234,7 @@ class TelaMeuPerfil2 extends StatelessWidget {
                             width: 40.w,
                             height: 40.h,
                             child: SvgPicture.asset(
-                                'assets/images/icon_meu_perfil_cinza.svg')
+                                'assets/images/icon_meu_perfil_cinza.svg', color: Color(0xff989898),)
                           ),
                           Container(
                             height: 5.h,
